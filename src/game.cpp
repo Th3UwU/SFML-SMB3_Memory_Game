@@ -9,6 +9,7 @@ Game::Game(void)
 {
 	windowTitle = sf::String("Memory Game");
 	window.create(sf::VideoMode(800, 600), windowTitle);
+	window.setFramerateLimit(60);
 	fullscreen = false;
 
 	gameWidth = 256;

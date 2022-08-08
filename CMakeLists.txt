@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.22)
 
 set(PROJECT_NAME SMB3_Memory_Game)
 project(${PROJECT_NAME} VERSION 1.0.0 LANGUAGES CXX)
